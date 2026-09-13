@@ -5,6 +5,7 @@ A simple, responsive registration form for a virtual event, built with vanilla H
 ## 🔗 Links
 
 - **Live Demo:** https://attendance-form-three.vercel.app/
+- **google sheet (view only):** https://docs.google.com/spreadsheets/d/1rGFwp7WhQOteuFCDd4cmw_yqc0ckLIKTzjini_eR2nU/edit?usp=sharing
 
 ## ✨ Features
 
