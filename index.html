@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attendace form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="form-card">
+            <h1>Event Attendance Registration</h1>
+            <form id="registrationForm">
+
+                <div class="field">
+                    <label for="name"><i class="fa-solid fa-user"></i> Name</label>
+                    <input type="text" placeholder="Enter your name" id="name" name="name" required>
+                </div>
+
+                <div class="field">
+                    <label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
+                    <input type="email" placeholder="Enter your email" id="email" name="email" required>
+                </div>
+
+                <div class="field">
+                    <label for="phone"><i class="fa-solid fa-phone"></i> Phone</label>
+                    <input type="tel" placeholder="Enter your phone" id="phone" name="phone" required>
+                </div>
+
+                <div class="field">
+                    <label><i class="fa-solid fa-venus-mars"></i> Gender</label>
+                    <div class="radio-group">
+                        <span>
+                            <input type="radio" name="gender" value="male" id="male" required>
+                            <label for="male">Male</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="gender" value="female" id="female" required>
+                            <label for="female">Female</label>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label for="course"><i class="fa-solid fa-graduation-cap"></i> Courses</label>
+                    <select id="course" name="course" required>
+                        <option value="" disabled selected>-- Choose a course --</option>
+                        <option value="web-basics">Introduction to Web Development</option>
+                        <option value="ui-ux">UI/UX Design Fundamentals</option>
+                        <option value="backend-basics">Backend and APIs Basics</option>
+                        <option value="career-panel">Career Panel: Building a Tech Career</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
